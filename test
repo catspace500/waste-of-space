@@ -1,0 +1,7 @@
+local screen = GetPartFromPort(1, "Screen")
+local textLabel = screen:CreateElement("TextLabel", {
+    Position = UDim2.fromScale(0.5, 0.5),
+    Size = UDim2.fromScale(1, 1),
+    Text = "test yes",
+    TextScaled = true
+})
